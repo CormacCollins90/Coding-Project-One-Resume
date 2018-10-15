@@ -1,0 +1,54 @@
+   body,
+   html {
+       height: 100%;
+   }
+
+   .bg_img {
+
+       background-image: url("laptop2.jpg");
+       position: relative;
+       background-repeat: no-repeat;
+       background-size: 100% 100vh;
+   }
+
+   .bg_img2 {
+       background-image: url("aboutme_photo.jpg");
+       position: relative;
+       background-repeat: no-repeat;
+       background-size: 100% 100vh;
+   }
+
+   .nav-link {
+       color: white;
+       font-family: 'Yanone Kaffeesatz', sans-serif;
+       font-size: 26px;
+   }
+
+   .nav-link:hover {
+       color: black;
+   }
+
+   .navbar-toggler {
+       padding: .25rem .75rem;
+       font-size: 1.25rem;
+       line-height: .5;
+       border: 1px solid transparent;
+       border-radius: .25rem;
+   }
+
+   a:not([href]):not([tabindex]) {
+       color: white;
+       text-decoration: none;
+   }
+   
+   #Beginning {
+       color: darkgrey;
+       margin-top: 10px;
+       margin-left: 400px;
+       
+   }
+   p {
+       color:white;
+       margin-left: 200px;
+   }
+   
