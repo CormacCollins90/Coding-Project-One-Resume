@@ -1,14 +1,14 @@
 body {
     margin : 0;
-    padding: 0;
-    background: url(aboutme_photo.jpg) no-repeat;
+    padding-top: 0;
+    background: url(media/aboutme_photo.jpg) no-repeat;
     background-size: cover;
 }
 
 .box{
     width: 450px;
     background: rgba(0, 0, 0, 0.4);
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
@@ -59,3 +59,10 @@ ul{
 #insta{
     color: rgba(228,64,95,1);
 }
+#linkedIn{
+    color: #0077B5
+}
+
+
+
+
