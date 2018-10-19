@@ -5,6 +5,11 @@ body {
     background-size: cover;
 }
 
+.videobg{
+    position: absolute;
+    size: 100vh;
+}
+
 .box{
     width: 450px;
     background: rgba(0, 0, 0, 0.4);
@@ -63,6 +68,31 @@ ul{
     color: #0077B5
 }
 
+#mail{
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+}
 
+#phone{
+     margin-right: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+#map{
+     margin-right: 10px;
+    color: red;
+    font-size: 18px;
+}
+
+.contacts{
+    color: white;
+    font-size: 17px;
+}
+
+.title{
+    color:grey;
+}
 
 
