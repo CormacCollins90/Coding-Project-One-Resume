@@ -5,11 +5,9 @@ body {
     background-size: cover;
 }
 
-/*.videobg {*/
-
-/*    position: relative;*/
-
-/*}*/
+.navbar {
+    position: fixed;
+}
 
 .main {
     z-index: 2;
@@ -18,10 +16,10 @@ body {
     left: 35%;
     width: 450px;
     background: rgba(0, 0, 0, 0.4);
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 1%;
     color: white;
 }
 
@@ -139,16 +137,23 @@ ul {
     text-decoration: underline;
 }
 
+.bottompage{
+    background-image: url("media/aboutme_photo.jpg"); 
+    text-decoration: no-repeat;
+    background-size: cover;
+}
+
 .about {
     padding-left: 30px;
     padding-top: 30px;
     text-decoration: underline;
     text-align: center;
+    
 }
 
 .aboutmedetails {
     text-align: center;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     font-size: 20px;
 }
 
