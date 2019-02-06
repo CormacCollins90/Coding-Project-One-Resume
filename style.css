@@ -106,7 +106,7 @@ ul {
 .mail {
     margin-right: 30px;
     color: lemonchiffon;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 
 .phone {
@@ -118,7 +118,7 @@ ul {
 .map {
     margin-right: 10px;
     color: red;
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .contacts {
@@ -129,32 +129,22 @@ ul {
 .title {
     color: white;
     text-decoration: underline;
+    /*font-family: 'Luckiest Guy', cursive;*/
+    font-family: 'Special Elite', cursive;
+    /*font-family: 'Shrikhand', cursive;*/
 }
 
 .bottompage {
-    background-image: url("media/background9.jpg");
+    background-image: url("media/background10.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.about {
-    padding-left: 30px;
-    padding-top: 30px;
-    text-decoration: underline;
-    text-align: center;
-
-}
-
-.aboutmedetails {
-    text-align: center;
-    /*box-sizing: border-box;*/
-    font-size: 20px;
 }
 
 .technologies {
     color: white;
     text-decoration: underline;
     text-align: center;
+    font-size: 70px;
 }
 
 
@@ -191,6 +181,10 @@ ul {
     -moz-box-shadow: inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
     box-shadow: inset 0 0 10px #000000;
+}
+
+.gmail {
+    font-size: 20px;
 }
 
 .footer {
