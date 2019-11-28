@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Header details and page links -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" type="text/css" />
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7cf1303b2f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Prosto+One|Rock+Salt" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Shrikhand|Special+Elite" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
     <title>Personal Website</title>
 </head>
 
+<!-- Body details containing the content of my CV -->
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand"><img src="media/CC_sign.png" width="33" height="30"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor03">
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -34,13 +45,10 @@
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#technologies">Languages</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#contact_details">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Cormac_Collins_Resume.doc" download>Download CV</a>
+                    <a class="nav-link" href="media/cv/cormac-cv.pdf" target="_blank">Download CV</a>
                 </li>
             </ul>
         </div>
@@ -54,17 +62,12 @@
             <h1> Cormac Collins </h1>
             <h5> Full Stack Web Developer </h5>
             <p>Student @Code Institute </p>
-            <ul>
-                <li><a href="https://www.facebook.com/cormaccollins90" target="_blank"><i class="fa fa-facebook-square FB" aria-hidden="true"></i></a></li>
-                <li><a href="https://twitter.com/C_Collins90" target="_blank"><i class="fa fa-twitter-square Twitter" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.instagram.com/cormac__collins/" target="_blank"><i class="fa fa-instagram Insta"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/cormac-collins-14111990/?originalSubdomain=ie" target="_blank"><i class="fa fa-linkedin LinkedIn"></i></a></li>
-            </ul>
+            <p>Studies: HTML5, CSS, JavaScript, JQuery, SQL, PYTHON, Django</p>
         </div>
     </div>
 
     <div class="bottompage">
-        <h2 class="technologies" id="portfolio">Portfolio</h2>
+        <h2 class="header2" id="portfolio">Portfolio</h2>
         <div>
             <div>
                 <div class="title-animation">
@@ -72,27 +75,29 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
-                            <div class="polaroid p1">
-                                <a href="#" target="_blank">
+                            <div class="polaroid">
+                                <a>
                                 <img class="portfolio-thumb" src="media/sb_project.png"></img>
                             </a>
-                                <p class="polaroid-writing">"The History of the SuperBowl" <br> This project is an api based website, I built this site for the NFL lovers out there(me included) for a place to find a detail background to one of the biggest sporting events in the
-                                    world, Americas SuperBowl, page one is a detailed script of it's background history.
-                                    <br><br> Page two is the api based part of the site, with a dropdown search bar for all the Super Bowls from SuperBowl I to SuperBowl LIII.
+                                <p class="polaroid-writing">SuperBowl History
                                 </p>
                             </div>
                         </div>
+                        <br>
+                        <a></a>
                         <div class="col-xs-12 col-sm-12">
-                            <div class="polaroid p2">
-                                <a href="#" target="_blank">
+                            <div class="polaroid">
+                                <a>
                                 <img class="portfolio-thumb" src="media/nysx_app.png"></img>
                             </a>
                                 <p class="polaroid-writing">N Y S X</p>
                             </div>
                         </div>
+                        <br>
+                        <a></a>
                         <div class="col-xs-12 col-sm-12">
-                            <div class="polaroid p3">
-                                <a href="#" target="_blank">
+                            <div class="polaroid">
+                                <a>
                                 <img class="portfolio-thumb" src="media/monkstown_tennis_club.png"></img>
                             </a>
                                 <p class="polaroid-writing">Monkstown Tennis</p>
@@ -104,32 +109,30 @@
         </div>
         <hr>
         <div class="container">
-            <div class="row">
-                <div class="col-xs-3 col-sm-6">
-                    <h2 id="technologies" class="title">Languages Studied</h2>
+            <div class="contacts">
+                <div class="col-xs-12 col-sm-12">
+                    <h2 id="contact_details" class="header2">Contact Details</h2>
                     <ul class="list-icons">
-                        <li><img src="media/html5.png" width="50"></img><a>HTML5</a></li>
-                        <li><img src="media/css.png" width="50"></img><a>  CSS</a> </li>
-                        <li><img src="media/python.png" width="50"></img><a>PYTHON</a></li>
-                        <li><img src="media/sql.png" width="50"></img><a>SQL</a></li>
-                        <li><img src="media/django.png" width="50"></img><a>DJANGO</a></li>
-                        <li><img src="media/java_script.png" width="50"></img><a>JavaScript</a></li>
-                        <li><a></a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-3 col-sm-6">
-                    <h2 id="contact_details" class="title">Contact Details</h2>
-                    <ul class="list-icons">
-                        <li><img src="media/google_map.png" width="30"><a class="contacts" href="https://www.google.com/maps/place/Knocknamullagh,+Co.+Cork,+T12+V9TP/@51.866101,-8.3766535,17z/data=!3m1!4b1!4m5!3m4!1s0x484484ef2f5e5669:0xa45d53500735df75!8m2!3d51.8660977!4d-8.3744648"
-                                target="_blank">Sunview Knocknamllagh,</br></hr>Rochestown,</br></hr>T12 V9TP,</br></hr>Cork,</br></hr>Ireland.</a></li>
-                        <li><img src="media/iphone_call.png" width="30"></img></i><a class="contacts" href="tel:+353851308115">+353 851308115</a> </li>
-                        <li><img src="media/gmail.png" width="30"></img><a class="contacts" href="mailto:cormaccollins90@gmail.com">CormacCollins90@gmail.com</a></li>
-                    </ul>
-                </div>
+                        <ul><img src="media/google_map.png" width="30"><a class="contacts_font" href="https://www.google.com/maps/place/Knocknamullagh,+Co.+Cork,+T12+V9TP/@51.866101,-8.3766535,17z/data=!3m1!4b1!4m5!3m4!1s0x484484ef2f5e5669:0xa45d53500735df75!8m2!3d51.8660977!4d-8.3744648"
+                                target="_blank">Rochestown,</br></hr>Cork,</br></hr>Ireland.</a></ul><br>
+                        <ul><img src="media/iphone_call.png" width="30"></img>
+                            </i><a class="contacts_font" href="tel:+353851308115">+353 851308115</a> </ul><br>
+                        <ul><img src="media/gmail.png" width="30"></img><a class="contacts_font" href="mailto:cormaccollins90@gmail.com">CormacCollins90 @gmail.com</a></ul>
+                        <div class="socialmedia">
+                            <ul>
+                                <li><a href="https://www.facebook.com/cormaccollins90" target="_blank"><i class="FB fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/cormac__collins/" target="_blank"><i class="Insta fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/cormac-collins-14111990/?originalSubdomain=ie" target="_blank"><i class="LinkedIn fab fa-linkedin-in"></i></a></li>
+                            </ul>
 
+                    </ul>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="text-center footer">Copyright © 2019. All rights reserved.</p>
+                    </div>
+                </div>
             </div>
-            <hr>
-            <p class="text-center footer">Copyright © 2019. All rights reserved.</p>
         </div>
 </body>
 
